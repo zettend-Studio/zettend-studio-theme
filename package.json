@@ -1,0 +1,33 @@
+{
+    "name": "zettend-studio-dark",
+    "displayName": "zettend Studio Dark",
+    "description": "We use this theme as a whole team!",
+    "version": "1.0.0",
+    "publisher": "zettend-studio",
+    "repository": "https://github.com/zettend-Studio/zettend-studio-theme",
+    "author": "Evgeniy [@zettend]",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes"
+      ],
+    "icon": "logo.png",
+	"galleryBanner": {
+		"color": "#000",
+		"theme": "dark"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "zettend Studio Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zettend-studio-dark-color-theme.json"
+            }
+        ]
+    }
+}
